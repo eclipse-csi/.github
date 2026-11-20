@@ -1,29 +1,26 @@
 # Security Policy
-This Eclipse Foundation Project adheres to the [Eclipse Foundation Vulnerability Reporting Policy](https://www.eclipse.org/security/policy/).
 
-## How To Report a Vulnerability
+This policy applies to all repositories of the `eclipse-csi` organization that
+do not provide their own `SECURITY.md`. It follows the
+[Eclipse Foundation Baseline Security Policy](https://www.eclipse.org/security/baseline/).
 
-If you think you have found a vulnerability in this repository, please report it to us through coordinated disclosure.
+## Reporting a Vulnerability
 
-**Please do not report security vulnerabilities through public issues, discussions, or change requests.**
+To report a vulnerability privately, submit a confidential report through the
+[Eclipse Foundation Vulnerability Reporting Tracker](https://gitlab.eclipse.org/security/vulnerability-reports/-/work_items/new?issue%5Bconfidential%5D=true).
 
-Instead, report it using one of the following ways:
+If the **Security** tab of the affected repository offers **Report a
+vulnerability**, you can use that private channel instead.
 
-* Contact the [Eclipse Foundation Security Team](mailto:security@eclipse-foundation.org) via email
-* Create a [confidential issue](https://gitlab.eclipse.org/security/vulnerability-reports/-/issues/new?issuable_template=new_vulnerability) in the Eclipse Foundation Vulnerability Reporting Tracker
+Please use one of these private reporting channels, and do not report
+vulnerabilities through public issues, pull requests, discussions or mailing
+lists. Send your report as plain text without attachments. See the baseline
+policy for what to include in your report and what to expect after submitting
+it.
 
-You can find more information about reporting and disclosure at the [Eclipse Foundation Security page](https://www.eclipse.org/security/).
+## Supported Versions
 
-Please include as much of the information listed below as you can to help us better understand and resolve the issue:
-
-* The type of issue (e.g., buffer overflow, SQL injection, or cross-site scripting)
-* Affected version(s)
-* Impact of the issue, including how an attacker might exploit the issue
-* Step-by-step instructions to reproduce the issue
-* The location of the affected source code (tag/branch/commit or direct URL)
-* Full paths of source file(s) related to the manifestation of the issue
-* Configuration required to reproduce the issue
-* Log files that are related to this issue (if possible)
-* Proof-of-concept or exploit code (if possible)
-
-This information will help us triage your report more quickly.
+Supported versions are project-specific and are listed in each repository's own
+`SECURITY.md`. Unless stated otherwise there, only the latest release (or the
+current state of the default branch for repositories without releases) receives
+security fixes.
